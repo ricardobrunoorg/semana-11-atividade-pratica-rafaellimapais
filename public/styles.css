@@ -1,0 +1,33 @@
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 180px;
+    padding: 15px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+}
+.highlight {
+    background-color: #ffff00;
+    border: 3px solid #ff0000 !important;
+}
+#detalhe-produto {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    margin-top: 20px;
+}
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}

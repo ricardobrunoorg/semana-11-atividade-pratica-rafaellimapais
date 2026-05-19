@@ -1,13 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos os Itens</title>
-    <script src="script.js"></script>
+    <title>mini ecommerce - home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>mini ecommerce</h1>
+    <div id="controles">
+        <input type="text" id="search" placeholder="buscar...">
+        <select id="category">
+            <option value="todas">todas</option>
+        </select>
+        <button id="btnrender">renderizar</button>
+    </div>
+    <hr>
+    <div id="product-list"></div>
+    <script src="app.js"></script>
 </body>
 </html>
